@@ -88,37 +88,34 @@ main .cartao-pokemon .tipos{
     display: flex;
     gap: 15px;
 }
-main .cartao-pokemon .tipos{
+main .cartao-pokemon .tipo{
     padding: 8px;
     border-radius: 10px;
 }
 
 .tipo-grama{
     background-color: #7ac74c;
-    display: flex;
-    gap: 15px;
-}
+   }
 
 .tipo-veneno{
     background-color: #df67ddfb;
-    display: flex;
-    gap: 15px;
 }
 
 .tipo-fogo{
     background-color: #ee8130;
-    display: flex;
-    gap: 15px;
 }
 
 .tipo-agua{
     background-color: #6390f0;
-    display: flex;
-    gap: 15px;
 }
 
 .tipo-inseto{
     background-color: #a6b91a;
-    display: flex;
-    gap: 15px;
+}
+
+main .descricao{
+    max-height: 80px;
+    overflow-y: scroll;
+    font-size: 14px;
+    padding-right: 10px;
 }
